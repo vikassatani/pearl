@@ -1,0 +1,318 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bgimg {
+    background-image: url("thapa3.jpg");
+    background-size: 100% 650px;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.maintitle {
+    text-shadow: 2px 2px 2px rgb(144, 207, 42);
+}
+
+.headerset {
+    box-sizing: border-box;
+    padding-top: 200px;
+}
+
+.headerset h2 {
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.headerset h1 {
+    font-size: 72px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.headerset .create {
+    border-radius: 12px;
+    padding: 2px 5px;
+    border-color: white;
+}
+
+
+/* ...........gif.......... */
+
+.contactimg {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.headerset img {
+    width: 50px;
+    height: 40px;
+}
+
+
+/* .............ourservices.......... */
+
+.ourservices {
+    /* margin: 100px auto; */
+    height: 600px;
+    padding-top: 100px;
+}
+
+.ourservices h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ourservices p {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.imgsetting {
+    margin: 80px 0px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.rowsetting {
+    margin: 50px 0px;
+}
+
+.rowsetting h3 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.rowsetting p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.fa-user-circle-o {
+    margin-top: 17px;
+}
+
+.fa-apple {
+    margin-top: 17px;
+}
+
+.fa-server {
+    margin-top: 17px;
+}
+
+
+/* ......portfolio.......... */
+
+.portfolio {
+    height: 900px;
+    width: 100%;
+    padding: 100px 0px 20px;
+}
+
+.portfolio h2 {
+    font-weight: bold;
+    font: size 2.5rem;
+}
+
+.card {
+    margin-top: 40px;
+}
+
+.card-img {
+    height: 189.5px;
+}
+
+
+/* ............ourteam...... */
+
+.ourteam {
+    height: 700px;
+    padding: 100px 0px 60px 0px;
+    width: 100%;
+}
+
+.ourteam h2 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.ourteam p {
+    font-size: 1.2rem;
+}
+
+.ourteam .row {
+    padding: 40px 0px 30px;
+}
+
+.ourteam .row .figure .figsett {
+    height: 280px;
+}
+
+.footer p {
+    line-height: 50px;
+}
+
+
+/* .......transition */
+
+.ourteam .row .figure .figsett {
+    height: 280px;
+    transition: ;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+.ourteam .row .figure .figsett:hover {
+    height: 300px;
+    widows: 250px;
+}
+
+.colorbg {
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to left, #F650FE, #607BF5);
+}
+
+.lastpara {
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: dashed;
+    column-rule-color: rosybrown;
+    text-align: justify;
+    padding: 20px 40px;
+}
+
+
+/* ''''''''fontcss''''''''' */
+
+@font-face {
+    font-family: newfam;
+    src: url('Flat Earth Scribe.ttf');
+}
+
+.ourservices h1,
+.portfolio h2,
+.ourteam h2 {
+    font-family: newfam;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* .............mediaquary........ */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .bgimg {
+        background-image: url("thapa3.jpg");
+        width: 100%;
+    }
+    .headerset {
+        box-sizing: border-box;
+        padding-top: 200px;
+    }
+    .headerset h2 {
+        font-size: 22px;
+    }
+    .headerset h1 {
+        font-size: 32px;
+        font-weight: bold;
+    }
+    .ourservices {
+        /* margin: 100px auto; */
+        height: 1200px;
+        padding-top: 100px;
+    }
+    .portfolio {
+        height: 2600px;
+        width: 100%;
+        padding: 50px 0px 20px;
+    }
+    .ourteam {
+        height: 1500px;
+        padding: 100px 0px 60px 0px;
+        width: 100%;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* Styles */
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    /* Styles */
+}
+
+
+/**********
+    iPad 3
+    **********/
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+    /* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+    /* Styles */
+}
